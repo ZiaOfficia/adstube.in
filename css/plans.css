@@ -1,0 +1,109 @@
+/*  ================================================
+        10.Pricing Section CSS
+    ================================================ */
+
+.section-title>h2 {
+    color: #FF0000 !important;
+    font-size: 35px !important;
+    text-transform: uppercase !important;
+    font-family: Poppins !important;
+}
+.section-title>p {
+    color: #4c4c4c !important;
+    font-size: 16px !important;
+    font-family: Poppins !important;
+}
+.section-title {
+    color: #4c4c4c !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    line-height: 30px !important;
+    margin-bottom: 61px !important;
+    font-family: Poppins !important;
+}
+.single-price-box {
+    background-color: #ededed;
+   text-align: center;
+    margin:0px 0px 20px 0px;
+}
+
+.price-head>span {
+    font-size:22px !important;
+}
+.price-head>h4 {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: Poppins !important;
+}
+
+.price-head {
+    padding: 30px 0 26px;
+    font-size: 16px;
+    font-family: Poppins !important;
+}
+
+.price {
+    background: #FF0000 none repeat scroll 0 0;
+    color: #ffffff !important;
+    display: block;
+    padding: 22px 0;
+    font-family: Poppins !important;
+}
+
+.price>h4 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff !important;
+    font-family: Poppins !important;
+}
+
+.price>h4>span {
+    font-size: 16px;
+    font-family: Poppins !important;
+}
+
+.price-feature {
+    padding-top: 35px;
+}
+
+.price-feature>p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-family: Poppins !important;
+}
+
+.price,
+.price-btn {
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.price-btn {
+    background: #000 none repeat scroll 0 0;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins !important;
+    margin-bottom: 41px;
+    margin-top: 9px;
+    padding: 16px 45px 13px;
+}
+
+.price-btn:hover {
+    color: #FF0000;
+}
+
+.single-price-box:hover .price {
+    background: #000 none repeat scroll 0 0;
+}
+
+.single-price-box:hover .price-btn {
+    background: #000 none repeat scroll 0 0;
+}
